@@ -1,0 +1,38 @@
+/* 
+ * Customize the header for front page.
+ */
+@page front-page{
+    /* Set the header height */
+    margin-top: 90px;
+      
+    @bottom-left-corner{
+        background-color: rgb(95,180,170);
+        content:"";
+    }
+    
+   @bottom-center{
+        background-color: rgb(95,180,170);
+        content:"";
+    }
+    
+       @bottom-left{
+        background-color: rgb(95,180,170);
+        content:"";
+    }
+    
+           @bottom-center{
+        background-color: rgb(95,180,170);
+        content:"";
+    }
+    
+         @bottom-right {
+        background-color: rgb(95,180,170);
+        content:"";
+    }
+    
+     @bottom-right-corner{
+        background-color: rgb(95,180,170);
+        content:"";
+    }
+
+}
