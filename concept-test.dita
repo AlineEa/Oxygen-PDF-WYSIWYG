@@ -4,5 +4,24 @@
  <title>Concept test</title>
  <conbody>
   <p>This is a test.</p>
+  <table id="front-page">
+   <desc>This table appears on the front page.</desc>
+   <tgroup cols="2">
+    <tbody>
+     <row>
+      <entry>1</entry>
+      <entry>2</entry>
+     </row>
+     <row>
+      <entry>3</entry>
+      <entry>4</entry>
+     </row>
+     <row>
+      <entry>5</entry>
+      <entry>6</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
  </conbody>
 </concept>

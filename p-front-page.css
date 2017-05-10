@@ -2,25 +2,36 @@
  * Customize the header for front page.
  */
 @page front-page{
-    /* Set the header height */
-    margin-top: 90px;
+
+    /* Set the header properties */
+margin-top: 160px;
+
+    @top-center{
+        content: "Maintenance Procedures L1 Advanced";
+        font-size: 18pt;
+        margin-top: 30pt;
+        margin-right: 20pt;
+        font-family: Verdana;
+    }
+
+    /* Set the footer properties */
+    margin-bottom: 100px;
       
+    @top-left{
+        content: url('./img/logo-test.svg');
+    }
+    
     @bottom-left-corner{
         background-color: rgb(95,180,170);
         content:"";
     }
     
+     @bottom-left{
+        background-color: rgb(95,180,170);
+        content:"";
+    }
+    
    @bottom-center{
-        background-color: rgb(95,180,170);
-        content:"";
-    }
-    
-       @bottom-left{
-        background-color: rgb(95,180,170);
-        content:"";
-    }
-    
-           @bottom-center{
         background-color: rgb(95,180,170);
         content:"";
     }
@@ -35,4 +46,8 @@
         content:"";
     }
 
+    @right-middle {
+        content: url('./img/front-page-test.svg');
+    }
+    
 }
