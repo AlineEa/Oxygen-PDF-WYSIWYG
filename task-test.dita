@@ -9,10 +9,15 @@
         </context>
         <steps>
             <step>
-                <cmd>Step 1</cmd>
+                <cmd>Step 1
+                <image href="img/step1.png" height="360" align="right"></image>
+                </cmd>
+                
             </step>
             <step>
-                <cmd>Step 2</cmd>
+                <cmd>Step 2
+                    <image href="img/step2.png" height="360" align="right"></image>
+                </cmd>
             </step>
         </steps>
     </taskbody>
